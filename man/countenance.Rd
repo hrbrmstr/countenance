@@ -4,9 +4,10 @@
 \name{countenance}
 \alias{countenance}
 \alias{countenance-package}
-\title{...}
+\title{Tools to Work with the Pi-Hole API}
 \description{
-A good description goes here otherwise CRAN checks fail.
+Named after a primary synonym for 'pihole', tools are provided
+to access the Pi-Hole API.
 }
 \seealso{
 Useful links:

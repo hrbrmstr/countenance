@@ -1,6 +1,6 @@
 Package: countenance
 Type: Package
-Title: countenance title goes here otherwise CRAN checks fail
+Title: Tools to Work with the Pi-Hole API
 Version: 0.1.0
 Date: 2020-04-22
 Authors@R: c(
@@ -8,17 +8,19 @@ Authors@R: c(
            comment = c(ORCID = "0000-0001-5670-2640"))
   )
 Maintainer: Bob Rudis <bob@rud.is>
-Description: A good description goes here otherwise CRAN checks fail.
+Description: Named after a primary synonym for 'pihole', tools are provided
+    to access the Pi-Hole API.
 URL: https://git.rud.is/hrbrmstr/countenance
 BugReports: https://gitlab.com/hrbrmstr/countenance/issues
 Encoding: UTF-8
-License: AGPL
+License: MIT + file LICENSE
 Suggests: 
     covr, tinytest
 Depends: 
     R (>= 3.2.0)
 Imports: 
     httr,
-    jsonlite
+    jsonlite,
+    magrittr
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.0
