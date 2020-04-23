@@ -40,11 +40,15 @@ The following functions are implemented:
 ## Installation
 
 ``` r
+install.packages("countenance", repos = c("https://cinc.rud.is", "https://cloud.r-project.org/"))
+# or
 remotes::install_git("https://git.rud.is/hrbrmstr/countenance.git")
 # or
 remotes::install_git("https://git.sr.ht/~hrbrmstr/countenance")
 # or
 remotes::install_gitlab("hrbrmstr/countenance")
+# or
+remotes::install_bitbucket("hrbrmstr/countenance")
 # or
 remotes::install_github("hrbrmstr/countenance")
 ```
